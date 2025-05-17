@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaisei+Decol&display=swap');
+
+/*pagina 1*/
+
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.background1{
+  background-image: url('1.jpg');     /* Caminho da imagem */
+  background-size: cover;             /* Preenche a tela toda */
+  background-repeat: no-repeat;       /* Não repete a imagem */
+  background-position: center center; /* Centraliza */
+  margin: 0;                          /* Remove margem padrão */
+  height: 100vh;                      /* Ocupa altura total da tela */
+}
+.imagemtexto{
+  background-image: url('in\ \(4\).jpg');  /* Caminho da imagem */
+  position: relative;
+  width: 100%;
+  height: 95vh; /* altura da tela inteira */
+  overflow: hidden; /* a imagem  quando passa nao aparece*/
+  background-size: cover; /* Preenche a tela toda */
+  top: 0px;
+  background-position: center center ; /* Centraliza */
+}    
+#idpagina1{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, -50%); /* centraliza de verdade */
+  font-size: 35px;
+  color: white;
+  z-index: 20px; /* aparece sobre a imagem */
+}
+
+/* pagina 2 */
+
+.background2 {
+  background-image: url(monteinjapa.jpg);
+  background-size: cover;
+  width: 50%;
+  height: 100vh;
+  position: fixed;
+  opacity: 50%;
+  z-index: 0%;
+}
+#body2{
+  background-color: #527286;
+}
+#idpagina2{
+  text-align: center;
+  font-size: 3.5em;
+  color: rgb(255, 255, 255);
+  z-index: 0;
+}
+#body2 header{
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#container1 div{
+  width: 45%;
+  text-align: left;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.802);
+}
+#container1 {
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+  margin-top: 50px;
+}
+#container1 p{
+  text-indent: 35px;
+  color: white;
+  font-size: 1.2em;
+  font-family: "Kaisei Decol", serif;
+}
+#imagemcity{
+  width: 50%;
+  height: 200px;
+  background-image: url(akiba\ city.jpg);
+  background-position: right;
+}
+h2{
+  text-align: right;
+  padding-right: 12.5%;
+  text-indent: 35px;
+}
+h2:hover{
+  color: rgb(5, 15, 26);
+}
+h3{
+  text-align: right;
+ padding-right: 21.5%;
+ margin-top: 2%;
+}
+#container2{
+  display: flex;
+  justify-content: right;
+  padding: 10px;
+}
+#container2 div{
+  margin-right: 2%;
+  text-align: center;
+  width: 45%;
+  border: 1px solid rgba(245, 245, 245, 0.194);
+  border-radius: 10px;
+}
+#container2 p{
+  font-family: "Kaisei Decol", serif;
+  font-size: 1.1em;
+}
+#container3{
+  display: flex;
+  justify-content: left;
+  padding: 10px;
+  z-index: 28;
+  position: relative;
+}
+#container3 div{
+  margin-left: 2%;
+  width: 45%;
+  text-align: left;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.801);
+  border-radius: 10px;
+  padding: 20px;
+}
+#container3 p{
+  justify-content: left;
+  font-size: 1.2em;
+  text-align: left;
+  color: white;
+ font-family: "Kaisei Decol", serif ;
+}
+#idfooter{
+  margin-right: 30%;
+  display: flex;
+  align-items: center;
+  margin-top: 10%;
+  position: relative;
+  z-index: 0;
+  flex-direction: column;
+}
+#idfooter p{
+ margin-top: 5%;
+ font-size: 25px;
+ color: white;
+ border: 2px;
+ line-height: 80px;
+}
+#indeximg{
+ background-position: center;
+ justify-content: right;
+ height: 200px;
+ width: 200px;
+ background-image: url(in1.2.jpg);
+ background-size:cover;
+ background-repeat: no-repeat;
+ border-radius: 50%;
+ box-shadow: 0px 0px 5px white;
+}
+
+/* página 3 */
+
+#body3{
+background-color: #334a6d;
+}
+.background3{
+  background-image: url('comidasjp.jpg');     /* Caminho da imagem */
+  background-size: cover;                     /* Preenche a tela toda */
+  background-repeat: no-repeat;               /* Não repete a imagem */
+  background-position: center center;         /* Centraliza */
+  margin: 0;                                  /* Remove margem padrão */
+  height: 50vh;
+  opacity: 70%;
+}
+.background3 h1{
+  text-align: center;
+  font-size: 3.1em;
+  color: rgb(2, 6, 20);
+  z-index: 50;
+  padding-top: 10%;
+}
+#headerpgn3{
+  box-shadow: 0px 0px 20px;
+  border-radius: 10%;
+}
+#iddpaginah2{
+  text-align: left;
+  padding-top: 4%;
+  color: white;
+  font-size: 30px;
+}
+#container4 p{
+  padding-top: 10%;
+  font-family: "Kaisei Decol", serif;
+  color: whitesmoke;
+  text-indent: 2%;
+}
+.background4{
+  margin: 2%;
+  margin-top: 6%;
+  padding-top: 20%;
+  background-image: url(image.png);
+  background-repeat: no-repeat;
+  width: 45%;
+  height: 100%;
+  border-radius: 2%;
+}
+.background5{
+  background-image: url("image copy.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center; 
+  width: 45%;
+  height: 350px; 
+  margin-left: 52%;
+  margin-top: 5%;
+  border-radius: 2%;
+}
+#p2{
+text-align: right;
+display: flex;
+}
+.backgroun6{
+ background-image: url('kebab.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 45%;
+  height: 350px;
+  border-radius: 2%;
+  margin: 2%;
+}
